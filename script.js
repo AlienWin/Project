@@ -42,3 +42,4 @@ const isChecked = false,
       isClosed = false;
 
 console.log (isChecked || !isClosed);
+console.log (isChecked || !isClosed);
