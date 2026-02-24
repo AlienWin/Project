@@ -4,13 +4,13 @@
 //const result = confirm("Are you here?");
 //console.log(result);
 ///alert(result);
-//const answer = +prompt("Are you 18 years old?", "18");
+//
 /* const answer = +prompt("Are you 18 years old?", "18"); */
 //console.log(typeof(answer));
 /* console.log(answer+5); */
 /* const answers =[];
 
-answers[0] =prompt ('Whats your First name', '');
+answers[0] =prompt ('Whats youconst answer = +prompt("Are you 18 years old?", "18");r First name', '');
 answers[1] =prompt ('Whats your Last name', '');
 answers[2] =prompt ('How old are you?', '')
 //document.write(answers);
@@ -34,6 +34,7 @@ console.log(--decr);
 console.log(5%2);
 
 console.log(2+2*2 == '6');
+console.log(2+2*2 == '8');
 
 && 
 ||
