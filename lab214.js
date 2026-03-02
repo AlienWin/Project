@@ -8,7 +8,8 @@ const personalMovieDb = { count :numbersOfFilms,
                          movies : {},
                           actors : {} ,
                           genres : [],
-                           private: "false"};  
+                           private: false
+                        };  
 console.log(personalMovieDb.count);
 
 const movieNameFirst =prompt ('Which movie you have seen recently', '');
@@ -26,3 +27,7 @@ movie.movieName= movieNameSecond;
 movie.rating = movieRatingSecond;
 
 console.log (movie.movieName, movie.rating);
+
+personalMovieDb.movies[movieNameFirst]= movieRatingFirst;
+personalMovieDb.movies[movieNameSecond]= movieRatingSecond;
+console.log (personalMovieDb);
